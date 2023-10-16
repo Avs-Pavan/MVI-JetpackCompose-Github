@@ -55,3 +55,5 @@ There are a three core components described:
 * **Effect** - plain object that signals one-time side-effect actions that should impact the UI e.g. triggering a navigation action, showing a Toast, SnackBar etc. Effects are exposed as `ChannelFlow` which behave as in each event is delivered to a single subscriber. An attempt to post an event without subscribers will suspend as soon as the channel buffer becomes full, waiting for a subscriber to appear.
 
 Every screen/flow defines its own contract class that states all corresponding core components described above: state content, events and effects.
+
+** Created new branch to practice git commands
